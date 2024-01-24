@@ -488,7 +488,35 @@
                         <h5 class="text-lg font-bold">152/1 Mohakhali Wireless Gate</h5>
                     </div>
                 </div>
-                <div class="border-3 flex-1">for input form</div>
+                <div class="flex-1">
+                    <form action="">
+                        <div class="grid gap-5 lg:gap-6 grid-cols-1 lg:grid-cols-2">
+                            <div>
+                                <label class="text-xl font-bold " for="name">Your Name</label><br>
+                                <input class="mt-4 input w-full outline-none border-none bg-[#13131808] rounded-xl" type="text" name="name" id="name" placeholder="Enter your full name" />
+                            </div>
+                            <div>
+                                <label class="text-xl font-bold " for="email">Your Email</label><br>
+                                <input class="mt-4 input w-full outline-none border-none bg-[#13131808] rounded-xl" type="email" name="email" id="email" placeholder="Enter your email" />
+                            </div>
+                            <div>
+                                <label class="text-xl font-bold " for="subject">Subject</label><br>
+                                <input class="mt-4 input w-full outline-none border-none bg-[#13131808] rounded-xl" type="text" name="subject" id="subject" placeholder="Enter your subject" />
+                            </div>
+                            <div>
+                                <label class="text-xl font-bold " for="number">Phone Number</label><br>
+                                <input class="mt-4 input w-full outline-none border-none bg-[#13131808] rounded-xl" type="tel" name="number" id="number" placeholder="Enter your phone number" />
+                            </div>
+                            <div class="col-span-1 md:col-span-2 lg:col-span-2">
+                                <label class="text-xl font-bold " for="message">Message</label><br>
+                                <textarea class="textarea mt-4 w-full outline-none border-none bg-[#13131808] rounded-xl" placeholder="Write your message" name="message" id="message" rows="17"></textarea>
+                            </div>
+                            <div class="col-span-1 md:col-span-2 lg:col-span-2">
+                                <button class="btn btn-active btn-primary w-full text-xl font-bold rounded-xl bg-primary-color hover:bg-transparent border-primary-color text-white hover:text-primary-color">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
 
